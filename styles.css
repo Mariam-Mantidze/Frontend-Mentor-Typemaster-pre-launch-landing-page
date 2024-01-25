@@ -101,3 +101,49 @@ h1 {
   background: #f16718;
   color: #fff;
 }
+
+#photos-section {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 64px;
+}
+
+#first-keyboard {
+  width: 326px;
+  border-radius: 20px;
+  align-self: flex-end;
+}
+
+.photo-flex-container {
+  /* display: flex; */
+  padding-right: 24px;
+  position: relative;
+}
+.keyboards {
+  border-radius: 20px;
+}
+
+#orange-layover {
+  height: 193px;
+  position: absolute;
+  left: -30px;
+  border-bottom-left-radius: 0;
+}
+
+#with-glass {
+  height: 193px;
+  position: absolute;
+  right: 24px;
+}
+
+#overlay {
+  border-radius: 20px;
+  background: #f16718;
+  width: 99px;
+  height: 193px;
+  flex-shrink: 0;
+  opacity: 0.99;
+  mix-blend-mode: multiply;
+  border-bottom-left-radius: 0;
+}

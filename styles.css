@@ -147,3 +147,28 @@ h1 {
   mix-blend-mode: multiply;
   border-bottom-left-radius: 0;
 }
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  margin-top: 75px;
+}
+
+#mechanical {
+  width: 255px;
+  color: #162542;
+  text-align: center;
+
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 36px; /* 112.5% */
+  text-transform: uppercase;
+}
+
+#mech-p {
+  width: 327px;
+  text-align: center;
+}

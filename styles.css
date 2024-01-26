@@ -327,4 +327,8 @@ footer p span {
     text-align: start;
     width: 281px;
   }
+  footer {
+    margin-top: 128px;
+    padding-bottom: 39px;
+  }
 }

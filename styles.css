@@ -112,6 +112,7 @@ h1 {
   display: flex;
   gap: 18px;
   padding-right: 24px;
+  justify-content: space-between;
 }
 
 .keyboard-gray-box-container {
@@ -168,7 +169,6 @@ h1 {
 
 .info {
   display: flex;
-  align-self: center;
   flex-direction: column;
   gap: 24px;
   align-items: center;
@@ -240,6 +240,11 @@ footer p span {
 }
 
 @media (min-width: 768px) {
+  /* main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  } */
   .btn-container {
     margin-top: 39px;
   }
@@ -249,6 +254,7 @@ footer p span {
   }
   #typemaster {
     flex-direction: row;
+    width: 100%;
     padding: 0 0 0 39px;
     margin-top: 0;
     gap: 0;
@@ -323,18 +329,27 @@ footer p span {
     width: 398px;
     text-align: start;
   }
+
+  main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
   #container {
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 0 98px 0 40px;
-    /* width: 631px; */
+    justify-content: center;
+    align-items: flex-start;
+    width: 765px;
   }
   .flex-item {
     align-items: flex-start;
+    /* justify-content: flex-start; */
   }
   .flex-item h3 {
     text-align: start;
-    width: 255px;
+    width: 13ch;
   }
   .flex-p {
     text-align: start;
@@ -387,10 +402,12 @@ footer p span {
     gap: 40px;
   }
   #photos-section {
-    margin: 0;
+    margin: 30px 165px 0 0;
     gap: 0;
-    justify-content: flex-start;
-    gap: 125px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 165px;
     margin-top: 30px;
   }
   .two-keyboards {
@@ -431,16 +448,8 @@ footer p span {
     margin-top: 168px;
   }
 
-  .flex-item {
-    height: 323px;
-  }
-
   flex.item h3 {
     margin-top: 48px;
-  }
-  .flex-item h3,
-  p {
-    width: 255px;
   }
 
   footer {

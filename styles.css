@@ -394,11 +394,13 @@ footer p span {
     gap: 0;
     justify-content: flex-start;
     gap: 125px;
+    margin-top: 30px;
   }
   .two-keyboards {
     align-items: flex-end;
   }
   .info {
+    padding: 0;
     flex-direction: column;
     align-items: flex-start;
     gap: 27px;
@@ -408,6 +410,24 @@ footer p span {
   #mech-p {
     width: 255px;
   }
+
+  #layover-container {
+    background-image: url(./assets/desktop/image-phone-and-keyboard.jpg);
+    background-size: cover;
+    width: 255px;
+    height: 480px;
+  }
+
+  .tablet-img {
+    display: none;
+  }
+  .desktop-img {
+    display: block;
+    width: 445px;
+    height: 480px;
+    border-radius: 20px;
+  }
+
   #container {
     flex-wrap: nowrap;
     align-items: center;

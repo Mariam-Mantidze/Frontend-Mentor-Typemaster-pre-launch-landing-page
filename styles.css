@@ -48,6 +48,13 @@ header {
 .gray {
   background: #e8eff2;
   color: #162542;
+  transition: 0.3s;
+}
+
+.gray:hover {
+  background: #162542;
+  transition: 0.3s;
+  color: #ffffff;
 }
 .gray-box {
   display: none;
@@ -102,6 +109,12 @@ h1 {
 .orange {
   background: #f16718;
   color: #fff;
+  transition: 0.3s;
+}
+
+.orange:hover {
+  background-color: #ff9b62;
+  transition: 0.3s;
 }
 
 #photos-section {
@@ -251,7 +264,9 @@ footer p span {
   .order-btn {
     padding: 16px 27px;
     gap: 37px;
+    cursor: pointer;
   }
+
   #typemaster {
     flex-direction: row;
     width: 100%;
